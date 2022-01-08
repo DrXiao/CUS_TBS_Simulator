@@ -1,0 +1,1006 @@
+=== TBS ===
+clock 0: T1, server deadline:0
+clock 1: T2, server deadline:0
+clock 2: T3, server deadline:0
+clock 3: T4, server deadline:0
+clock 4: T1, server deadline:0
+clock 5: T2, server deadline:0
+clock 6: (nil)
+clock 7: T3, server deadline:0
+clock 8: T1, server deadline:0
+clock 9: (nil)
+clock 10: T2, server deadline:0
+clock 11: (nil)
+clock 12: T1, server deadline:0
+clock 13: T4, server deadline:0
+clock 14: T3, server deadline:0
+clock 15: T2, server deadline:0
+clock 16: T1, server deadline:0
+clock 17: (nil)
+clock 18: (nil)
+clock 19: (nil)
+clock 20: T1, server deadline:0
+clock 21: T2, server deadline:0
+clock 22: T3, server deadline:0
+clock 23: (nil)
+clock 24: T1, server deadline:0
+clock 25: T2, server deadline:0
+clock 26: T4, server deadline:0
+clock 27: (nil)
+clock 28: T1, server deadline:0
+clock 29: T3, server deadline:0
+clock 30: T2, server deadline:80
+clock 31: TA1, server deadline:80
+clock 32: T1, server deadline:80
+clock 33: TA1, server deadline:80
+clock 34: TA1, server deadline:80
+clock 35: T2, server deadline:80
+clock 36: T1, server deadline:80
+clock 37: T3, server deadline:80
+clock 38: TA1, server deadline:80
+clock 39: T4, server deadline:80
+clock 40: T1, server deadline:80
+clock 41: T2, server deadline:80
+clock 42: T3, server deadline:80
+clock 43: TA1, server deadline:80
+clock 44: T1, server deadline:80
+clock 45: T2, server deadline:80
+clock 46: TA1, server deadline:80
+clock 47: TA1, server deadline:80
+clock 48: T1, server deadline:80
+clock 49: T3, server deadline:80
+clock 50: T2, server deadline:80
+clock 51: TA1, server deadline:80
+clock 52: T1, server deadline:80
+clock 53: T4, server deadline:80
+clock 54: TA1, server deadline:80
+clock 55: T2, server deadline:80
+clock 56: T1, server deadline:80
+clock 57: T3, server deadline:80
+clock 58: TA1, server deadline:80
+clock 59: (nil)
+clock 60: T1, server deadline:80
+clock 61: T2, server deadline:80
+clock 62: (nil)
+clock 63: T3, server deadline:80
+clock 64: T1, server deadline:80
+clock 65: T2, server deadline:80
+clock 66: T4, server deadline:80
+clock 67: (nil)
+clock 68: T1, server deadline:80
+clock 69: TA2, server deadline:180
+clock 70: T2, server deadline:180
+clock 71: T3, server deadline:180
+clock 72: T1, server deadline:180
+clock 73: TA2, server deadline:180
+clock 74: TA2, server deadline:180
+clock 75: T2, server deadline:180
+clock 76: T1, server deadline:180
+clock 77: T3, server deadline:180
+clock 78: T4, server deadline:180
+clock 79: TA2, server deadline:180
+clock 80: T1, server deadline:180
+clock 81: T2, server deadline:180
+clock 82: TA2, server deadline:180
+clock 83: TA2, server deadline:180
+clock 84: T1, server deadline:180
+clock 85: T2, server deadline:180
+clock 86: T3, server deadline:180
+clock 87: TA2, server deadline:180
+clock 88: T1, server deadline:180
+clock 89: TA2, server deadline:180
+clock 90: T2, server deadline:180
+clock 91: T3, server deadline:180
+clock 92: T1, server deadline:180
+clock 93: T4, server deadline:180
+clock 94: TA2, server deadline:180
+clock 95: T2, server deadline:180
+clock 96: T1, server deadline:180
+clock 97: TA2, server deadline:180
+clock 98: T3, server deadline:180
+clock 99: TA2, server deadline:180
+clock 100: T1, server deadline:180
+clock 101: T2, server deadline:180
+clock 102: TA2, server deadline:180
+clock 103: TA2, server deadline:180
+clock 104: T1, server deadline:180
+clock 105: T2, server deadline:180
+clock 106: T3, server deadline:180
+clock 107: T4, server deadline:180
+clock 108: T1, server deadline:180
+clock 109: TA2, server deadline:180
+clock 110: T2, server deadline:180
+clock 111: TA2, server deadline:180
+clock 112: T1, server deadline:180
+clock 113: T3, server deadline:180
+clock 114: TA2, server deadline:180
+clock 115: T2, server deadline:180
+clock 116: T1, server deadline:180
+clock 117: T4, server deadline:180
+clock 118: TA2, server deadline:180
+clock 119: T3, server deadline:180
+clock 120: T1, server deadline:180
+clock 121: T2, server deadline:180
+clock 122: TA2, server deadline:180
+clock 123: TA2, server deadline:180
+clock 124: T1, server deadline:180
+clock 125: T2, server deadline:180
+clock 126: T3, server deadline:180
+clock 127: TA2, server deadline:180
+clock 128: T1, server deadline:180
+clock 129: (nil)
+clock 130: T2, server deadline:180
+clock 131: T4, server deadline:180
+clock 132: T1, server deadline:180
+clock 133: T3, server deadline:180
+clock 134: (nil)
+clock 135: T2, server deadline:180
+clock 136: T1, server deadline:180
+clock 137: (nil)
+clock 138: (nil)
+clock 139: (nil)
+clock 140: T1, server deadline:280
+clock 141: T2, server deadline:280
+clock 142: T3, server deadline:280
+clock 143: T4, server deadline:280
+clock 144: T1, server deadline:280
+clock 145: T2, server deadline:280
+clock 146: TA3, server deadline:280
+clock 147: T3, server deadline:280
+clock 148: T1, server deadline:280
+clock 149: TA3, server deadline:280
+clock 150: T2, server deadline:280
+clock 151: TA3, server deadline:280
+clock 152: T1, server deadline:280
+clock 153: TA3, server deadline:280
+clock 154: T3, server deadline:280
+clock 155: T2, server deadline:280
+clock 156: T1, server deadline:280
+clock 157: T4, server deadline:280
+clock 158: TA3, server deadline:280
+clock 159: TA3, server deadline:280
+clock 160: T1, server deadline:280
+clock 161: T2, server deadline:280
+clock 162: T3, server deadline:280
+clock 163: TA3, server deadline:280
+clock 164: T1, server deadline:280
+clock 165: T2, server deadline:280
+clock 166: TA3, server deadline:280
+clock 167: TA3, server deadline:280
+clock 168: T1, server deadline:280
+clock 169: T3, server deadline:280
+clock 170: T2, server deadline:280
+clock 171: T4, server deadline:280
+clock 172: T1, server deadline:280
+clock 173: TA3, server deadline:280
+clock 174: TA3, server deadline:280
+clock 175: T2, server deadline:280
+clock 176: T1, server deadline:280
+clock 177: T3, server deadline:280
+clock 178: TA3, server deadline:280
+clock 179: TA3, server deadline:280
+clock 180: T1, server deadline:280
+clock 181: T2, server deadline:280
+clock 182: T3, server deadline:280
+clock 183: T4, server deadline:280
+clock 184: T1, server deadline:280
+clock 185: T2, server deadline:280
+clock 186: TA3, server deadline:280
+clock 187: TA3, server deadline:280
+clock 188: T1, server deadline:280
+clock 189: T3, server deadline:280
+clock 190: T2, server deadline:280
+clock 191: TA3, server deadline:280
+clock 192: T1, server deadline:280
+clock 193: TA3, server deadline:280
+clock 194: TA3, server deadline:280
+clock 195: T2, server deadline:280
+clock 196: T1, server deadline:280
+clock 197: T3, server deadline:280
+clock 198: T4, server deadline:280
+clock 199: TA3, server deadline:280
+clock 200: T1, server deadline:280
+clock 201: T2, server deadline:280
+clock 202: TA3, server deadline:280
+clock 203: T3, server deadline:280
+clock 204: T1, server deadline:280
+clock 205: T2, server deadline:280
+clock 206: (nil)
+clock 207: (nil)
+clock 208: T1, server deadline:280
+clock 209: T4, server deadline:280
+clock 210: T2, server deadline:280
+clock 211: T3, server deadline:280
+clock 212: T1, server deadline:280
+clock 213: (nil)
+clock 214: (nil)
+clock 215: T2, server deadline:280
+clock 216: T1, server deadline:280
+clock 217: T3, server deadline:280
+clock 218: (nil)
+clock 219: (nil)
+clock 220: T1, server deadline:280
+clock 221: T2, server deadline:280
+clock 222: T4, server deadline:280
+clock 223: (nil)
+clock 224: T1, server deadline:280
+clock 225: T2, server deadline:280
+clock 226: T3, server deadline:280
+clock 227: (nil)
+clock 228: T1, server deadline:280
+clock 229: (nil)
+clock 230: T2, server deadline:280
+clock 231: T3, server deadline:280
+clock 232: T1, server deadline:280
+clock 233: (nil)
+clock 234: T4, server deadline:280
+clock 235: T2, server deadline:280
+clock 236: T1, server deadline:280
+clock 237: (nil)
+clock 238: T3, server deadline:280
+clock 239: (nil)
+clock 240: T1, server deadline:280
+clock 241: T2, server deadline:280
+clock 242: (nil)
+clock 243: (nil)
+clock 244: T1, server deadline:280
+clock 245: T2, server deadline:280
+clock 246: T3, server deadline:280
+clock 247: T4, server deadline:280
+clock 248: T1, server deadline:280
+clock 249: (nil)
+clock 250: T2, server deadline:280
+clock 251: (nil)
+clock 252: T1, server deadline:280
+clock 253: T3, server deadline:280
+clock 254: (nil)
+clock 255: T2, server deadline:280
+clock 256: T1, server deadline:280
+clock 257: (nil)
+clock 258: (nil)
+clock 259: T3, server deadline:280
+clock 260: T1, server deadline:280
+clock 261: T2, server deadline:280
+clock 262: T4, server deadline:280
+clock 263: (nil)
+clock 264: T1, server deadline:280
+clock 265: T2, server deadline:280
+clock 266: T3, server deadline:280
+clock 267: (nil)
+clock 268: T1, server deadline:280
+clock 269: (nil)
+clock 270: T2, server deadline:280
+clock 271: (nil)
+clock 272: T1, server deadline:280
+clock 273: T3, server deadline:280
+clock 274: T4, server deadline:280
+clock 275: T2, server deadline:280
+clock 276: T1, server deadline:280
+clock 277: (nil)
+clock 278: (nil)
+clock 279: (nil)
+clock 280: T1, server deadline:280
+clock 281: T2, server deadline:280
+clock 282: T3, server deadline:280
+clock 283: (nil)
+clock 284: T1, server deadline:280
+clock 285: T2, server deadline:280
+clock 286: T4, server deadline:280
+clock 287: T3, server deadline:280
+clock 288: T1, server deadline:280
+clock 289: (nil)
+clock 290: T2, server deadline:280
+clock 291: (nil)
+clock 292: T1, server deadline:280
+clock 293: (nil)
+clock 294: T3, server deadline:280
+clock 295: T2, server deadline:280
+clock 296: T1, server deadline:280
+clock 297: (nil)
+clock 298: (nil)
+clock 299: T4, server deadline:280
+clock 300: T1, server deadline:280
+clock 301: T2, server deadline:280
+clock 302: T3, server deadline:280
+clock 303: (nil)
+clock 304: T1, server deadline:280
+clock 305: T2, server deadline:280
+clock 306: (nil)
+clock 307: (nil)
+clock 308: T1, server deadline:280
+clock 309: T3, server deadline:280
+clock 310: T2, server deadline:280
+clock 311: (nil)
+clock 312: T1, server deadline:280
+clock 313: T4, server deadline:280
+clock 314: (nil)
+clock 315: T2, server deadline:280
+clock 316: T1, server deadline:280
+clock 317: T3, server deadline:280
+clock 318: (nil)
+clock 319: (nil)
+clock 320: T1, server deadline:280
+clock 321: T2, server deadline:280
+clock 322: T3, server deadline:280
+clock 323: (nil)
+clock 324: T1, server deadline:280
+clock 325: T2, server deadline:280
+clock 326: T4, server deadline:280
+clock 327: (nil)
+clock 328: T1, server deadline:280
+clock 329: T3, server deadline:280
+clock 330: T2, server deadline:280
+clock 331: (nil)
+clock 332: T1, server deadline:280
+clock 333: (nil)
+clock 334: (nil)
+clock 335: T2, server deadline:280
+clock 336: T1, server deadline:280
+clock 337: T3, server deadline:280
+clock 338: T4, server deadline:280
+clock 339: (nil)
+clock 340: T1, server deadline:280
+clock 341: T2, server deadline:280
+clock 342: (nil)
+clock 343: T3, server deadline:280
+clock 344: T1, server deadline:280
+clock 345: T2, server deadline:280
+clock 346: (nil)
+clock 347: (nil)
+clock 348: T1, server deadline:280
+clock 349: (nil)
+clock 350: T2, server deadline:280
+clock 351: T3, server deadline:280
+clock 352: T1, server deadline:280
+clock 353: T4, server deadline:280
+clock 354: (nil)
+clock 355: T2, server deadline:280
+clock 356: T1, server deadline:280
+clock 357: T3, server deadline:280
+clock 358: (nil)
+clock 359: (nil)
+clock 360: T1, server deadline:280
+clock 361: T2, server deadline:280
+clock 362: (nil)
+clock 363: (nil)
+clock 364: T1, server deadline:280
+clock 365: T2, server deadline:280
+clock 366: T3, server deadline:280
+clock 367: T4, server deadline:280
+clock 368: T1, server deadline:280
+clock 369: (nil)
+clock 370: T2, server deadline:280
+clock 371: T3, server deadline:280
+clock 372: T1, server deadline:280
+clock 373: (nil)
+clock 374: (nil)
+clock 375: T2, server deadline:280
+clock 376: T1, server deadline:280
+clock 377: T4, server deadline:280
+clock 378: T3, server deadline:280
+clock 379: (nil)
+clock 380: T1, server deadline:280
+clock 381: T2, server deadline:280
+clock 382: (nil)
+clock 383: (nil)
+clock 384: T1, server deadline:280
+clock 385: T2, server deadline:280
+clock 386: T3, server deadline:280
+clock 387: (nil)
+clock 388: T1, server deadline:280
+clock 389: (nil)
+clock 390: T2, server deadline:280
+clock 391: T4, server deadline:280
+clock 392: T1, server deadline:280
+clock 393: T3, server deadline:280
+clock 394: (nil)
+clock 395: T2, server deadline:280
+clock 396: T1, server deadline:280
+clock 397: (nil)
+clock 398: (nil)
+clock 399: T3, server deadline:280
+clock 400: T1, server deadline:280
+clock 401: T2, server deadline:280
+clock 402: (nil)
+clock 403: T4, server deadline:280
+clock 404: T1, server deadline:280
+clock 405: T2, server deadline:280
+clock 406: T3, server deadline:280
+clock 407: (nil)
+clock 408: T1, server deadline:280
+clock 409: (nil)
+clock 410: T2, server deadline:280
+clock 411: (nil)
+clock 412: T1, server deadline:280
+clock 413: T3, server deadline:280
+clock 414: (nil)
+clock 415: T2, server deadline:280
+clock 416: T1, server deadline:280
+clock 417: T4, server deadline:280
+clock 418: (nil)
+clock 419: (nil)
+clock 420: T1, server deadline:280
+clock 421: T2, server deadline:280
+clock 422: T3, server deadline:280
+clock 423: (nil)
+clock 424: T1, server deadline:280
+clock 425: T2, server deadline:280
+clock 426: (nil)
+clock 427: T3, server deadline:280
+clock 428: T1, server deadline:280
+clock 429: T4, server deadline:280
+clock 430: T2, server deadline:280
+clock 431: (nil)
+clock 432: T1, server deadline:280
+clock 433: (nil)
+clock 434: T3, server deadline:280
+clock 435: T2, server deadline:280
+clock 436: T1, server deadline:280
+clock 437: (nil)
+clock 438: (nil)
+clock 439: (nil)
+clock 440: T1, server deadline:280
+clock 441: T2, server deadline:280
+clock 442: T3, server deadline:280
+clock 443: T4, server deadline:280
+clock 444: T1, server deadline:280
+clock 445: T2, server deadline:280
+clock 446: (nil)
+clock 447: (nil)
+clock 448: T1, server deadline:280
+clock 449: T3, server deadline:280
+clock 450: T2, server deadline:280
+clock 451: (nil)
+clock 452: T1, server deadline:280
+clock 453: (nil)
+clock 454: (nil)
+clock 455: T2, server deadline:280
+clock 456: T1, server deadline:280
+clock 457: T3, server deadline:280
+clock 458: T4, server deadline:280
+clock 459: (nil)
+clock 460: T1, server deadline:280
+clock 461: T2, server deadline:280
+clock 462: T3, server deadline:280
+clock 463: (nil)
+clock 464: T1, server deadline:280
+clock 465: T2, server deadline:280
+clock 466: (nil)
+clock 467: (nil)
+clock 468: T1, server deadline:280
+clock 469: T3, server deadline:280
+clock 470: T2, server deadline:280
+clock 471: T4, server deadline:280
+clock 472: T1, server deadline:280
+clock 473: (nil)
+clock 474: (nil)
+clock 475: T2, server deadline:280
+clock 476: T1, server deadline:280
+clock 477: T3, server deadline:280
+clock 478: (nil)
+clock 479: (nil)
+clock 480: T1, server deadline:280
+clock 481: T2, server deadline:280
+clock 482: T4, server deadline:280
+clock 483: T3, server deadline:280
+clock 484: T1, server deadline:280
+clock 485: T2, server deadline:280
+clock 486: (nil)
+clock 487: (nil)
+clock 488: T1, server deadline:280
+clock 489: (nil)
+clock 490: T2, server deadline:280
+clock 491: T3, server deadline:280
+clock 492: T1, server deadline:280
+clock 493: (nil)
+clock 494: T4, server deadline:280
+clock 495: T2, server deadline:280
+clock 496: T1, server deadline:280
+clock 497: T3, server deadline:280
+clock 498: (nil)
+clock 499: (nil)
+clock 500: T1, server deadline:280
+clock 501: T2, server deadline:280
+clock 502: (nil)
+clock 503: (nil)
+clock 504: T1, server deadline:280
+clock 505: T2, server deadline:280
+clock 506: T3, server deadline:280
+clock 507: T4, server deadline:280
+clock 508: T1, server deadline:280
+clock 509: (nil)
+clock 510: T2, server deadline:280
+clock 511: T3, server deadline:280
+clock 512: T1, server deadline:280
+clock 513: (nil)
+clock 514: (nil)
+clock 515: T2, server deadline:280
+clock 516: T1, server deadline:280
+clock 517: (nil)
+clock 518: T3, server deadline:280
+clock 519: (nil)
+clock 520: T1, server deadline:280
+clock 521: T2, server deadline:280
+clock 522: T4, server deadline:280
+clock 523: (nil)
+clock 524: T1, server deadline:280
+clock 525: T2, server deadline:280
+clock 526: T3, server deadline:280
+clock 527: (nil)
+clock 528: T1, server deadline:280
+clock 529: (nil)
+clock 530: T2, server deadline:280
+clock 531: (nil)
+clock 532: T1, server deadline:280
+clock 533: T3, server deadline:280
+clock 534: T4, server deadline:280
+clock 535: T2, server deadline:280
+clock 536: T1, server deadline:280
+clock 537: (nil)
+clock 538: (nil)
+clock 539: T3, server deadline:280
+clock 540: T1, server deadline:280
+clock 541: T2, server deadline:280
+clock 542: (nil)
+clock 543: (nil)
+clock 544: T1, server deadline:280
+clock 545: T2, server deadline:280
+clock 546: T3, server deadline:280
+clock 547: T4, server deadline:280
+clock 548: T1, server deadline:280
+clock 549: (nil)
+clock 550: T2, server deadline:280
+clock 551: (nil)
+clock 552: T1, server deadline:280
+clock 553: T3, server deadline:280
+clock 554: (nil)
+clock 555: T2, server deadline:280
+clock 556: T1, server deadline:280
+clock 557: (nil)
+clock 558: (nil)
+clock 559: T4, server deadline:280
+clock 560: T1, server deadline:280
+clock 561: T2, server deadline:280
+clock 562: T3, server deadline:280
+clock 563: (nil)
+clock 564: T1, server deadline:280
+clock 565: T2, server deadline:280
+clock 566: (nil)
+clock 567: T3, server deadline:280
+clock 568: T1, server deadline:280
+clock 569: (nil)
+clock 570: T2, server deadline:280
+clock 571: (nil)
+clock 572: T1, server deadline:280
+clock 573: T4, server deadline:280
+clock 574: T3, server deadline:280
+clock 575: T2, server deadline:280
+clock 576: T1, server deadline:280
+clock 577: (nil)
+clock 578: (nil)
+clock 579: (nil)
+clock 580: T1, server deadline:280
+clock 581: T2, server deadline:280
+clock 582: T3, server deadline:280
+clock 583: (nil)
+clock 584: T1, server deadline:280
+clock 585: T2, server deadline:280
+clock 586: T4, server deadline:280
+clock 587: (nil)
+clock 588: T1, server deadline:280
+clock 589: T3, server deadline:280
+clock 590: T2, server deadline:280
+clock 591: (nil)
+clock 592: T1, server deadline:280
+clock 593: (nil)
+clock 594: (nil)
+clock 595: T2, server deadline:280
+clock 596: T1, server deadline:280
+clock 597: T3, server deadline:280
+clock 598: T4, server deadline:280
+clock 599: (nil)
+clock 600: T1, server deadline:280
+clock 601: T2, server deadline:280
+clock 602: T3, server deadline:280
+clock 603: (nil)
+clock 604: T1, server deadline:280
+clock 605: T2, server deadline:280
+clock 606: (nil)
+clock 607: (nil)
+clock 608: T1, server deadline:280
+clock 609: T3, server deadline:280
+clock 610: T2, server deadline:280
+clock 611: T4, server deadline:280
+clock 612: T1, server deadline:280
+clock 613: (nil)
+clock 614: (nil)
+clock 615: T2, server deadline:280
+clock 616: T1, server deadline:280
+clock 617: T3, server deadline:280
+clock 618: (nil)
+clock 619: (nil)
+clock 620: T1, server deadline:280
+clock 621: T2, server deadline:280
+clock 622: (nil)
+clock 623: T3, server deadline:280
+clock 624: T1, server deadline:280
+clock 625: T2, server deadline:280
+clock 626: T4, server deadline:280
+clock 627: (nil)
+clock 628: T1, server deadline:280
+clock 629: (nil)
+clock 630: T2, server deadline:280
+clock 631: T3, server deadline:280
+clock 632: T1, server deadline:280
+clock 633: (nil)
+clock 634: (nil)
+clock 635: T2, server deadline:280
+clock 636: T1, server deadline:280
+clock 637: T3, server deadline:280
+clock 638: T4, server deadline:280
+clock 639: (nil)
+clock 640: T1, server deadline:280
+clock 641: T2, server deadline:280
+clock 642: (nil)
+clock 643: (nil)
+clock 644: T1, server deadline:280
+clock 645: T2, server deadline:280
+clock 646: T3, server deadline:280
+clock 647: (nil)
+clock 648: T1, server deadline:280
+clock 649: (nil)
+clock 650: T2, server deadline:280
+clock 651: T3, server deadline:280
+clock 652: T1, server deadline:280
+clock 653: T4, server deadline:280
+clock 654: (nil)
+clock 655: T2, server deadline:280
+clock 656: T1, server deadline:280
+clock 657: (nil)
+clock 658: T3, server deadline:280
+clock 659: (nil)
+clock 660: T1, server deadline:280
+clock 661: T2, server deadline:280
+clock 662: (nil)
+clock 663: T4, server deadline:280
+clock 664: T1, server deadline:280
+clock 665: T2, server deadline:280
+clock 666: T3, server deadline:280
+clock 667: (nil)
+clock 668: T1, server deadline:280
+clock 669: (nil)
+clock 670: T2, server deadline:280
+clock 671: (nil)
+clock 672: T1, server deadline:280
+clock 673: T3, server deadline:280
+clock 674: (nil)
+clock 675: T2, server deadline:280
+clock 676: T1, server deadline:280
+clock 677: T4, server deadline:280
+clock 678: (nil)
+clock 679: T3, server deadline:280
+clock 680: T1, server deadline:280
+clock 681: T2, server deadline:280
+clock 682: (nil)
+clock 683: (nil)
+clock 684: T1, server deadline:280
+clock 685: T2, server deadline:280
+clock 686: T3, server deadline:280
+clock 687: (nil)
+clock 688: T1, server deadline:280
+clock 689: T4, server deadline:280
+clock 690: T2, server deadline:280
+clock 691: (nil)
+clock 692: T1, server deadline:280
+clock 693: T3, server deadline:280
+clock 694: (nil)
+clock 695: T2, server deadline:280
+clock 696: T1, server deadline:280
+clock 697: (nil)
+clock 698: (nil)
+clock 699: (nil)
+clock 700: T1, server deadline:280
+clock 701: T2, server deadline:280
+clock 702: T3, server deadline:280
+clock 703: T4, server deadline:280
+clock 704: T1, server deadline:280
+clock 705: T2, server deadline:280
+clock 706: (nil)
+clock 707: T3, server deadline:280
+clock 708: T1, server deadline:280
+clock 709: (nil)
+clock 710: T2, server deadline:280
+clock 711: (nil)
+clock 712: T1, server deadline:280
+clock 713: (nil)
+clock 714: T3, server deadline:280
+clock 715: T2, server deadline:280
+clock 716: T1, server deadline:280
+clock 717: T4, server deadline:280
+clock 718: (nil)
+clock 719: (nil)
+clock 720: T1, server deadline:280
+clock 721: T2, server deadline:280
+clock 722: T3, server deadline:280
+clock 723: (nil)
+clock 724: T1, server deadline:280
+clock 725: T2, server deadline:280
+clock 726: (nil)
+clock 727: (nil)
+clock 728: T1, server deadline:280
+clock 729: T3, server deadline:280
+clock 730: T2, server deadline:280
+clock 731: T4, server deadline:280
+clock 732: T1, server deadline:280
+clock 733: (nil)
+clock 734: (nil)
+clock 735: T2, server deadline:280
+clock 736: T1, server deadline:280
+clock 737: T3, server deadline:280
+clock 738: (nil)
+clock 739: (nil)
+clock 740: T1, server deadline:280
+clock 741: T2, server deadline:280
+clock 742: T3, server deadline:280
+clock 743: T4, server deadline:280
+clock 744: T1, server deadline:280
+clock 745: T2, server deadline:280
+clock 746: (nil)
+clock 747: (nil)
+clock 748: T1, server deadline:280
+clock 749: T3, server deadline:280
+clock 750: T2, server deadline:280
+clock 751: (nil)
+clock 752: T1, server deadline:280
+clock 753: (nil)
+clock 754: T4, server deadline:280
+clock 755: T2, server deadline:280
+clock 756: T1, server deadline:280
+clock 757: T3, server deadline:280
+clock 758: (nil)
+clock 759: (nil)
+clock 760: T1, server deadline:280
+clock 761: T2, server deadline:280
+clock 762: (nil)
+clock 763: T3, server deadline:280
+clock 764: T1, server deadline:280
+clock 765: T2, server deadline:280
+clock 766: (nil)
+clock 767: T4, server deadline:280
+clock 768: T1, server deadline:280
+clock 769: (nil)
+clock 770: T2, server deadline:280
+clock 771: T3, server deadline:280
+clock 772: T1, server deadline:280
+clock 773: (nil)
+clock 774: (nil)
+clock 775: T2, server deadline:280
+clock 776: T1, server deadline:280
+clock 777: T3, server deadline:280
+clock 778: (nil)
+clock 779: (nil)
+clock 780: T1, server deadline:280
+clock 781: T2, server deadline:280
+clock 782: T4, server deadline:280
+clock 783: (nil)
+clock 784: T1, server deadline:280
+clock 785: T2, server deadline:280
+clock 786: T3, server deadline:280
+clock 787: (nil)
+clock 788: T1, server deadline:280
+clock 789: (nil)
+clock 790: T2, server deadline:280
+clock 791: T3, server deadline:280
+clock 792: T1, server deadline:280
+clock 793: T4, server deadline:280
+clock 794: (nil)
+clock 795: T2, server deadline:280
+clock 796: T1, server deadline:280
+clock 797: (nil)
+clock 798: T3, server deadline:280
+clock 799: (nil)
+clock 800: T1, server deadline:280
+clock 801: T2, server deadline:280
+clock 802: (nil)
+clock 803: (nil)
+clock 804: T1, server deadline:280
+clock 805: T2, server deadline:280
+clock 806: T3, server deadline:280
+clock 807: T4, server deadline:280
+clock 808: T1, server deadline:280
+clock 809: (nil)
+clock 810: T2, server deadline:280
+clock 811: (nil)
+clock 812: T1, server deadline:280
+clock 813: T3, server deadline:280
+clock 814: (nil)
+clock 815: T2, server deadline:280
+clock 816: T1, server deadline:280
+clock 817: (nil)
+clock 818: (nil)
+clock 819: T3, server deadline:280
+clock 820: T1, server deadline:280
+clock 821: T2, server deadline:280
+clock 822: T4, server deadline:280
+clock 823: (nil)
+clock 824: T1, server deadline:280
+clock 825: T2, server deadline:280
+clock 826: T3, server deadline:280
+clock 827: (nil)
+clock 828: T1, server deadline:280
+clock 829: (nil)
+clock 830: T2, server deadline:280
+clock 831: (nil)
+clock 832: T1, server deadline:280
+clock 833: T3, server deadline:280
+clock 834: T4, server deadline:280
+clock 835: T2, server deadline:280
+clock 836: T1, server deadline:280
+clock 837: (nil)
+clock 838: (nil)
+clock 839: (nil)
+clock 840: T1, server deadline:280
+clock 841: T2, server deadline:280
+clock 842: T3, server deadline:280
+clock 843: (nil)
+clock 844: T1, server deadline:280
+clock 845: T2, server deadline:280
+clock 846: T4, server deadline:280
+clock 847: T3, server deadline:280
+clock 848: T1, server deadline:280
+clock 849: (nil)
+clock 850: T2, server deadline:280
+clock 851: (nil)
+clock 852: T1, server deadline:280
+clock 853: (nil)
+clock 854: T3, server deadline:280
+clock 855: T2, server deadline:280
+clock 856: T1, server deadline:280
+clock 857: (nil)
+clock 858: T4, server deadline:280
+clock 859: (nil)
+clock 860: T1, server deadline:280
+clock 861: T2, server deadline:280
+clock 862: T3, server deadline:280
+clock 863: (nil)
+clock 864: T1, server deadline:280
+clock 865: T2, server deadline:280
+clock 866: (nil)
+clock 867: (nil)
+clock 868: T1, server deadline:280
+clock 869: T3, server deadline:280
+clock 870: T2, server deadline:280
+clock 871: T4, server deadline:280
+clock 872: T1, server deadline:280
+clock 873: (nil)
+clock 874: (nil)
+clock 875: T2, server deadline:280
+clock 876: T1, server deadline:280
+clock 877: T3, server deadline:280
+clock 878: (nil)
+clock 879: (nil)
+clock 880: T1, server deadline:280
+clock 881: T2, server deadline:280
+clock 882: T3, server deadline:280
+clock 883: (nil)
+clock 884: T1, server deadline:280
+clock 885: T2, server deadline:280
+clock 886: T4, server deadline:280
+clock 887: (nil)
+clock 888: T1, server deadline:280
+clock 889: T3, server deadline:280
+clock 890: T2, server deadline:280
+clock 891: (nil)
+clock 892: T1, server deadline:280
+clock 893: (nil)
+clock 894: (nil)
+clock 895: T2, server deadline:280
+clock 896: T1, server deadline:280
+clock 897: T3, server deadline:280
+clock 898: T4, server deadline:280
+clock 899: (nil)
+clock 900: T1, server deadline:280
+clock 901: T2, server deadline:280
+clock 902: (nil)
+clock 903: T3, server deadline:280
+clock 904: T1, server deadline:280
+clock 905: T2, server deadline:280
+clock 906: (nil)
+clock 907: (nil)
+clock 908: T1, server deadline:280
+clock 909: (nil)
+clock 910: T2, server deadline:280
+clock 911: T3, server deadline:280
+clock 912: T1, server deadline:280
+clock 913: T4, server deadline:280
+clock 914: (nil)
+clock 915: T2, server deadline:280
+clock 916: T1, server deadline:280
+clock 917: T3, server deadline:280
+clock 918: (nil)
+clock 919: (nil)
+clock 920: T1, server deadline:280
+clock 921: T2, server deadline:280
+clock 922: (nil)
+clock 923: T4, server deadline:280
+clock 924: T1, server deadline:280
+clock 925: T2, server deadline:280
+clock 926: T3, server deadline:280
+clock 927: (nil)
+clock 928: T1, server deadline:280
+clock 929: (nil)
+clock 930: T2, server deadline:280
+clock 931: T3, server deadline:280
+clock 932: T1, server deadline:280
+clock 933: (nil)
+clock 934: (nil)
+clock 935: T2, server deadline:280
+clock 936: T1, server deadline:280
+clock 937: T4, server deadline:280
+clock 938: T3, server deadline:280
+clock 939: (nil)
+clock 940: T1, server deadline:280
+clock 941: T2, server deadline:280
+clock 942: (nil)
+clock 943: (nil)
+clock 944: T1, server deadline:280
+clock 945: T2, server deadline:280
+clock 946: T3, server deadline:280
+clock 947: (nil)
+clock 948: T1, server deadline:280
+clock 949: T4, server deadline:280
+clock 950: T2, server deadline:280
+clock 951: (nil)
+clock 952: T1, server deadline:280
+clock 953: T3, server deadline:280
+clock 954: (nil)
+clock 955: T2, server deadline:280
+clock 956: T1, server deadline:280
+clock 957: (nil)
+clock 958: (nil)
+clock 959: T3, server deadline:280
+clock 960: T1, server deadline:280
+clock 961: T2, server deadline:280
+clock 962: T4, server deadline:280
+clock 963: (nil)
+clock 964: T1, server deadline:280
+clock 965: T2, server deadline:280
+clock 966: T3, server deadline:280
+clock 967: (nil)
+clock 968: T1, server deadline:280
+clock 969: (nil)
+clock 970: T2, server deadline:280
+clock 971: (nil)
+clock 972: T1, server deadline:280
+clock 973: T3, server deadline:280
+clock 974: (nil)
+clock 975: T2, server deadline:280
+clock 976: T1, server deadline:280
+clock 977: T4, server deadline:280
+clock 978: (nil)
+clock 979: (nil)
+clock 980: T1, server deadline:280
+clock 981: T2, server deadline:280
+clock 982: T3, server deadline:280
+clock 983: (nil)
+clock 984: T1, server deadline:280
+clock 985: T2, server deadline:280
+clock 986: (nil)
+clock 987: T3, server deadline:280
+clock 988: T1, server deadline:280
+clock 989: T4, server deadline:280
+clock 990: T2, server deadline:280
+clock 991: (nil)
+clock 992: T1, server deadline:280
+clock 993: (nil)
+clock 994: T3, server deadline:280
+clock 995: T2, server deadline:280
+clock 996: T1, server deadline:280
+clock 997: (nil)
+clock 998: (nil)
+clock 999: (nil)
+clock 1000: T1, server deadline:280
+miss periodic jobs: 0, total periodic jobs: 672
+total response time: 151, number of aperiodic tasks: 3
+Miss rate of periodic jobs: 0.000000
+Average response time of aperiodic jobs: 50.333333
