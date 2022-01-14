@@ -1,0 +1,3 @@
+At clock 576: Job 1 misses deadline (abs_deadline: 606, remain_exec_time: 31)
+At clock 586: Job 2 misses deadline (abs_deadline: 592, remain_exec_time: 7)
+At clock 947: Job 10 misses deadline (abs_deadline: 968, remain_exec_time: 22)

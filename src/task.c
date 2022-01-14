@@ -11,7 +11,7 @@
 static struct periodic_task *periodic_tasks = NULL;
 static struct list_head periodic_job_queue = INIT_LIST_HEAD(periodic_job_queue);
 static int miss_periodic_job_num = 0;
-static int total_periodic_job_num = 0;
+static int total_periodic_jobs_num = 0;
 static int num_of_periodic_tasks = 0;
 
 // aperiodic tasks settings.
@@ -46,7 +46,7 @@ int init_tasks_info(char *server, char *periodic_file, char *aperiodic_file) {
         exit(0);
     }
     miss_periodic_job_num = 0;
-    total_periodic_job_num = 0;
+    total_periodic_jobs_num = 0;
     num_of_periodic_tasks = 0;
     struct periodic_task p_task;
     while (fscanf(periodic_input, "%d, %d", &p_task.period, &p_task.WCET) !=
@@ -74,25 +74,36 @@ int init_tasks_info(char *server, char *periodic_file, char *aperiodic_file) {
         aperiodic_tasks[num_of_aperiodic_tasks - 1] = ap_task;
     }
     fclose(aperiodic_input);
+    printf("Tatal ap jobs: %d\n", num_of_aperiodic_tasks);
     return 0;
 }
 
 void terminate_system(void) {
+#if DEBUG == 1
+    struct list_head *cur;
+    printf("Remaining aperiodic jobs: ");
+    LIST_FOR_EACH(cur, &aperiodic_job_queue) {
+        struct job_queue_node *accesser = (struct job_queue_node *)(CONTAINER_OF(
+            cur, struct job_queue_node, link));
+        printf("TA%d ->", accesser->job.tid);
+    }
+    printf("NULL\n");
+#endif
     destroy_job_queue(&periodic_job_queue);
     destroy_job_queue(&aperiodic_job_queue);
     free(periodic_tasks);
     free(aperiodic_tasks);
 #if DEBUG == 1
     printf("miss periodic jobs: %d, total periodic jobs: %d\n"
-           "total response time: %d, number of aperiodic tasks: %d\n",
-           miss_periodic_job_num, total_periodic_job_num, total_response_time,
-           num_of_aperiodic_tasks);
+           "total response time: %d, number of completed aperiodic tasks: %d\n",
+           miss_periodic_job_num, total_periodic_jobs_num, total_response_time,
+           total_completed_aperiodic_job_num);
 
 #endif
     printf("Miss rate of periodic jobs: %lf\n"
            "Average response time of aperiodic jobs: %lf\n",
-           (double)miss_periodic_job_num / total_periodic_job_num,
-           (double)total_response_time / num_of_aperiodic_tasks);
+           (double)miss_periodic_job_num / total_periodic_jobs_num,
+           (double)total_response_time / total_completed_aperiodic_job_num);
 }
 
 void check_jobs_miss_deadline(void) {
@@ -131,7 +142,7 @@ void check_new_jobs_release(void) {
                 .tid = task_idx + 1};
             job_queue_add_tail(job_queue, &new_job);
             has_new_job = true;
-            total_periodic_job_num += 1;
+            total_periodic_jobs_num += 1;
         }
     }
     job_queue = &aperiodic_job_queue;
@@ -182,7 +193,7 @@ void execute_job(void) {
         }
         job_queue = &aperiodic_job_queue;
         cur = job_queue->next;
-        // TODO
+        
         if (cur != job_queue) {
             accesser = (struct job_queue_node *)(CONTAINER_OF(
                 cur, struct job_queue_node, link));
@@ -208,8 +219,13 @@ void execute_job(void) {
         }
         if (exec_job->job.remain_exec_time == 0) {
             if (doing_aperiodic) {
+                total_completed_aperiodic_job_num += 1;
                 aperiodic_job_release_time = exec_job->job.release_time;
                 total_response_time += 1 + clock - aperiodic_job_release_time;
+#if DEBUG == 1
+                printf("TA%d finishs: %d ~ %d\n", exec_job->job.tid ,aperiodic_job_release_time, 1 + clock);
+                printf("Current total_response_time: %d\n", total_response_time);        
+#endif
             }
             list_del(&exec_job->link);
             free(exec_job);
@@ -221,12 +237,15 @@ void execute_job(void) {
     }
     if (CUS && server_deadline == clock + 1) {
     SERVER_SETTING:
+        job_queue = &aperiodic_job_queue;
         cur = job_queue->next;
         if (cur != job_queue) {
             accesser = (struct job_queue_node *)(CONTAINER_OF(
                 cur, struct job_queue_node, link));
+            printf("For TA%d, New deadline: %d + %d ", accesser->job.tid, server_deadline, accesser->job.remain_exec_time * 5);
             server_deadline += accesser->job.remain_exec_time * 5;
             server_budget = accesser->job.remain_exec_time;
+            printf("= %d\n", server_deadline);
         }
     }
 }

@@ -1,0 +1,1016 @@
+=== CUS ===
+Tatal ap jobs: 3
+clock 0: T1, server deadline:0
+clock 1: T2, server deadline:0
+clock 2: T3, server deadline:0
+clock 3: TA1, server deadline:8
+TA1 finishs: 3 ~ 4
+Current total_response_time: 1
+clock 4: T1, server deadline:8
+clock 5: T2, server deadline:8
+clock 6: T4, server deadline:8
+clock 7: T3, server deadline:8
+For TA2, New deadline: 8 + 5 = 13
+clock 8: T1, server deadline:13
+clock 9: TA2, server deadline:13
+TA2 finishs: 6 ~ 10
+Current total_response_time: 5
+clock 10: T2, server deadline:13
+clock 11: (nil)
+clock 12: T1, server deadline:13
+For TA3, New deadline: 13 + 5 = 18
+clock 13: TA3, server deadline:18
+TA3 finishs: 10 ~ 14
+Current total_response_time: 9
+clock 14: T3, server deadline:18
+clock 15: T2, server deadline:18
+clock 16: T1, server deadline:18
+clock 17: T4, server deadline:18
+clock 18: (nil)
+clock 19: (nil)
+clock 20: T1, server deadline:18
+clock 21: T2, server deadline:18
+clock 22: T3, server deadline:18
+clock 23: (nil)
+clock 24: T1, server deadline:18
+clock 25: T2, server deadline:18
+clock 26: T4, server deadline:18
+clock 27: (nil)
+clock 28: T1, server deadline:18
+clock 29: T3, server deadline:18
+clock 30: T2, server deadline:18
+clock 31: (nil)
+clock 32: T1, server deadline:18
+clock 33: (nil)
+clock 34: (nil)
+clock 35: T2, server deadline:18
+clock 36: T1, server deadline:18
+clock 37: T3, server deadline:18
+clock 38: (nil)
+clock 39: T4, server deadline:18
+clock 40: T1, server deadline:18
+clock 41: T2, server deadline:18
+clock 42: T3, server deadline:18
+clock 43: (nil)
+clock 44: T1, server deadline:18
+clock 45: T2, server deadline:18
+clock 46: (nil)
+clock 47: (nil)
+clock 48: T1, server deadline:18
+clock 49: T3, server deadline:18
+clock 50: T2, server deadline:18
+clock 51: (nil)
+clock 52: T1, server deadline:18
+clock 53: T4, server deadline:18
+clock 54: (nil)
+clock 55: T2, server deadline:18
+clock 56: T1, server deadline:18
+clock 57: T3, server deadline:18
+clock 58: (nil)
+clock 59: (nil)
+clock 60: T1, server deadline:18
+clock 61: T2, server deadline:18
+clock 62: (nil)
+clock 63: T3, server deadline:18
+clock 64: T1, server deadline:18
+clock 65: T2, server deadline:18
+clock 66: T4, server deadline:18
+clock 67: (nil)
+clock 68: T1, server deadline:18
+clock 69: (nil)
+clock 70: T2, server deadline:18
+clock 71: T3, server deadline:18
+clock 72: T1, server deadline:18
+clock 73: (nil)
+clock 74: (nil)
+clock 75: T2, server deadline:18
+clock 76: T1, server deadline:18
+clock 77: T3, server deadline:18
+clock 78: T4, server deadline:18
+clock 79: (nil)
+clock 80: T1, server deadline:18
+clock 81: T2, server deadline:18
+clock 82: (nil)
+clock 83: (nil)
+clock 84: T1, server deadline:18
+clock 85: T2, server deadline:18
+clock 86: T3, server deadline:18
+clock 87: (nil)
+clock 88: T1, server deadline:18
+clock 89: (nil)
+clock 90: T2, server deadline:18
+clock 91: T3, server deadline:18
+clock 92: T1, server deadline:18
+clock 93: T4, server deadline:18
+clock 94: (nil)
+clock 95: T2, server deadline:18
+clock 96: T1, server deadline:18
+clock 97: (nil)
+clock 98: T3, server deadline:18
+clock 99: (nil)
+clock 100: T1, server deadline:18
+clock 101: T2, server deadline:18
+clock 102: (nil)
+clock 103: (nil)
+clock 104: T1, server deadline:18
+clock 105: T2, server deadline:18
+clock 106: T3, server deadline:18
+clock 107: T4, server deadline:18
+clock 108: T1, server deadline:18
+clock 109: (nil)
+clock 110: T2, server deadline:18
+clock 111: (nil)
+clock 112: T1, server deadline:18
+clock 113: T3, server deadline:18
+clock 114: (nil)
+clock 115: T2, server deadline:18
+clock 116: T1, server deadline:18
+clock 117: T4, server deadline:18
+clock 118: (nil)
+clock 119: T3, server deadline:18
+clock 120: T1, server deadline:18
+clock 121: T2, server deadline:18
+clock 122: (nil)
+clock 123: (nil)
+clock 124: T1, server deadline:18
+clock 125: T2, server deadline:18
+clock 126: T3, server deadline:18
+clock 127: (nil)
+clock 128: T1, server deadline:18
+clock 129: (nil)
+clock 130: T2, server deadline:18
+clock 131: T4, server deadline:18
+clock 132: T1, server deadline:18
+clock 133: T3, server deadline:18
+clock 134: (nil)
+clock 135: T2, server deadline:18
+clock 136: T1, server deadline:18
+clock 137: (nil)
+clock 138: (nil)
+clock 139: (nil)
+clock 140: T1, server deadline:18
+clock 141: T2, server deadline:18
+clock 142: T3, server deadline:18
+clock 143: T4, server deadline:18
+clock 144: T1, server deadline:18
+clock 145: T2, server deadline:18
+clock 146: (nil)
+clock 147: T3, server deadline:18
+clock 148: T1, server deadline:18
+clock 149: (nil)
+clock 150: T2, server deadline:18
+clock 151: (nil)
+clock 152: T1, server deadline:18
+clock 153: (nil)
+clock 154: T3, server deadline:18
+clock 155: T2, server deadline:18
+clock 156: T1, server deadline:18
+clock 157: T4, server deadline:18
+clock 158: (nil)
+clock 159: (nil)
+clock 160: T1, server deadline:18
+clock 161: T2, server deadline:18
+clock 162: T3, server deadline:18
+clock 163: (nil)
+clock 164: T1, server deadline:18
+clock 165: T2, server deadline:18
+clock 166: (nil)
+clock 167: (nil)
+clock 168: T1, server deadline:18
+clock 169: T3, server deadline:18
+clock 170: T2, server deadline:18
+clock 171: T4, server deadline:18
+clock 172: T1, server deadline:18
+clock 173: (nil)
+clock 174: (nil)
+clock 175: T2, server deadline:18
+clock 176: T1, server deadline:18
+clock 177: T3, server deadline:18
+clock 178: (nil)
+clock 179: (nil)
+clock 180: T1, server deadline:18
+clock 181: T2, server deadline:18
+clock 182: T3, server deadline:18
+clock 183: T4, server deadline:18
+clock 184: T1, server deadline:18
+clock 185: T2, server deadline:18
+clock 186: (nil)
+clock 187: (nil)
+clock 188: T1, server deadline:18
+clock 189: T3, server deadline:18
+clock 190: T2, server deadline:18
+clock 191: (nil)
+clock 192: T1, server deadline:18
+clock 193: (nil)
+clock 194: (nil)
+clock 195: T2, server deadline:18
+clock 196: T1, server deadline:18
+clock 197: T3, server deadline:18
+clock 198: T4, server deadline:18
+clock 199: (nil)
+clock 200: T1, server deadline:18
+clock 201: T2, server deadline:18
+clock 202: (nil)
+clock 203: T3, server deadline:18
+clock 204: T1, server deadline:18
+clock 205: T2, server deadline:18
+clock 206: (nil)
+clock 207: (nil)
+clock 208: T1, server deadline:18
+clock 209: T4, server deadline:18
+clock 210: T2, server deadline:18
+clock 211: T3, server deadline:18
+clock 212: T1, server deadline:18
+clock 213: (nil)
+clock 214: (nil)
+clock 215: T2, server deadline:18
+clock 216: T1, server deadline:18
+clock 217: T3, server deadline:18
+clock 218: (nil)
+clock 219: (nil)
+clock 220: T1, server deadline:18
+clock 221: T2, server deadline:18
+clock 222: T4, server deadline:18
+clock 223: (nil)
+clock 224: T1, server deadline:18
+clock 225: T2, server deadline:18
+clock 226: T3, server deadline:18
+clock 227: (nil)
+clock 228: T1, server deadline:18
+clock 229: (nil)
+clock 230: T2, server deadline:18
+clock 231: T3, server deadline:18
+clock 232: T1, server deadline:18
+clock 233: (nil)
+clock 234: T4, server deadline:18
+clock 235: T2, server deadline:18
+clock 236: T1, server deadline:18
+clock 237: (nil)
+clock 238: T3, server deadline:18
+clock 239: (nil)
+clock 240: T1, server deadline:18
+clock 241: T2, server deadline:18
+clock 242: (nil)
+clock 243: (nil)
+clock 244: T1, server deadline:18
+clock 245: T2, server deadline:18
+clock 246: T3, server deadline:18
+clock 247: T4, server deadline:18
+clock 248: T1, server deadline:18
+clock 249: (nil)
+clock 250: T2, server deadline:18
+clock 251: (nil)
+clock 252: T1, server deadline:18
+clock 253: T3, server deadline:18
+clock 254: (nil)
+clock 255: T2, server deadline:18
+clock 256: T1, server deadline:18
+clock 257: (nil)
+clock 258: (nil)
+clock 259: T3, server deadline:18
+clock 260: T1, server deadline:18
+clock 261: T2, server deadline:18
+clock 262: T4, server deadline:18
+clock 263: (nil)
+clock 264: T1, server deadline:18
+clock 265: T2, server deadline:18
+clock 266: T3, server deadline:18
+clock 267: (nil)
+clock 268: T1, server deadline:18
+clock 269: (nil)
+clock 270: T2, server deadline:18
+clock 271: (nil)
+clock 272: T1, server deadline:18
+clock 273: T3, server deadline:18
+clock 274: T4, server deadline:18
+clock 275: T2, server deadline:18
+clock 276: T1, server deadline:18
+clock 277: (nil)
+clock 278: (nil)
+clock 279: (nil)
+clock 280: T1, server deadline:18
+clock 281: T2, server deadline:18
+clock 282: T3, server deadline:18
+clock 283: (nil)
+clock 284: T1, server deadline:18
+clock 285: T2, server deadline:18
+clock 286: T4, server deadline:18
+clock 287: T3, server deadline:18
+clock 288: T1, server deadline:18
+clock 289: (nil)
+clock 290: T2, server deadline:18
+clock 291: (nil)
+clock 292: T1, server deadline:18
+clock 293: (nil)
+clock 294: T3, server deadline:18
+clock 295: T2, server deadline:18
+clock 296: T1, server deadline:18
+clock 297: (nil)
+clock 298: (nil)
+clock 299: T4, server deadline:18
+clock 300: T1, server deadline:18
+clock 301: T2, server deadline:18
+clock 302: T3, server deadline:18
+clock 303: (nil)
+clock 304: T1, server deadline:18
+clock 305: T2, server deadline:18
+clock 306: (nil)
+clock 307: (nil)
+clock 308: T1, server deadline:18
+clock 309: T3, server deadline:18
+clock 310: T2, server deadline:18
+clock 311: (nil)
+clock 312: T1, server deadline:18
+clock 313: T4, server deadline:18
+clock 314: (nil)
+clock 315: T2, server deadline:18
+clock 316: T1, server deadline:18
+clock 317: T3, server deadline:18
+clock 318: (nil)
+clock 319: (nil)
+clock 320: T1, server deadline:18
+clock 321: T2, server deadline:18
+clock 322: T3, server deadline:18
+clock 323: (nil)
+clock 324: T1, server deadline:18
+clock 325: T2, server deadline:18
+clock 326: T4, server deadline:18
+clock 327: (nil)
+clock 328: T1, server deadline:18
+clock 329: T3, server deadline:18
+clock 330: T2, server deadline:18
+clock 331: (nil)
+clock 332: T1, server deadline:18
+clock 333: (nil)
+clock 334: (nil)
+clock 335: T2, server deadline:18
+clock 336: T1, server deadline:18
+clock 337: T3, server deadline:18
+clock 338: T4, server deadline:18
+clock 339: (nil)
+clock 340: T1, server deadline:18
+clock 341: T2, server deadline:18
+clock 342: (nil)
+clock 343: T3, server deadline:18
+clock 344: T1, server deadline:18
+clock 345: T2, server deadline:18
+clock 346: (nil)
+clock 347: (nil)
+clock 348: T1, server deadline:18
+clock 349: (nil)
+clock 350: T2, server deadline:18
+clock 351: T3, server deadline:18
+clock 352: T1, server deadline:18
+clock 353: T4, server deadline:18
+clock 354: (nil)
+clock 355: T2, server deadline:18
+clock 356: T1, server deadline:18
+clock 357: T3, server deadline:18
+clock 358: (nil)
+clock 359: (nil)
+clock 360: T1, server deadline:18
+clock 361: T2, server deadline:18
+clock 362: (nil)
+clock 363: (nil)
+clock 364: T1, server deadline:18
+clock 365: T2, server deadline:18
+clock 366: T3, server deadline:18
+clock 367: T4, server deadline:18
+clock 368: T1, server deadline:18
+clock 369: (nil)
+clock 370: T2, server deadline:18
+clock 371: T3, server deadline:18
+clock 372: T1, server deadline:18
+clock 373: (nil)
+clock 374: (nil)
+clock 375: T2, server deadline:18
+clock 376: T1, server deadline:18
+clock 377: T4, server deadline:18
+clock 378: T3, server deadline:18
+clock 379: (nil)
+clock 380: T1, server deadline:18
+clock 381: T2, server deadline:18
+clock 382: (nil)
+clock 383: (nil)
+clock 384: T1, server deadline:18
+clock 385: T2, server deadline:18
+clock 386: T3, server deadline:18
+clock 387: (nil)
+clock 388: T1, server deadline:18
+clock 389: (nil)
+clock 390: T2, server deadline:18
+clock 391: T4, server deadline:18
+clock 392: T1, server deadline:18
+clock 393: T3, server deadline:18
+clock 394: (nil)
+clock 395: T2, server deadline:18
+clock 396: T1, server deadline:18
+clock 397: (nil)
+clock 398: (nil)
+clock 399: T3, server deadline:18
+clock 400: T1, server deadline:18
+clock 401: T2, server deadline:18
+clock 402: (nil)
+clock 403: T4, server deadline:18
+clock 404: T1, server deadline:18
+clock 405: T2, server deadline:18
+clock 406: T3, server deadline:18
+clock 407: (nil)
+clock 408: T1, server deadline:18
+clock 409: (nil)
+clock 410: T2, server deadline:18
+clock 411: (nil)
+clock 412: T1, server deadline:18
+clock 413: T3, server deadline:18
+clock 414: (nil)
+clock 415: T2, server deadline:18
+clock 416: T1, server deadline:18
+clock 417: T4, server deadline:18
+clock 418: (nil)
+clock 419: (nil)
+clock 420: T1, server deadline:18
+clock 421: T2, server deadline:18
+clock 422: T3, server deadline:18
+clock 423: (nil)
+clock 424: T1, server deadline:18
+clock 425: T2, server deadline:18
+clock 426: (nil)
+clock 427: T3, server deadline:18
+clock 428: T1, server deadline:18
+clock 429: T4, server deadline:18
+clock 430: T2, server deadline:18
+clock 431: (nil)
+clock 432: T1, server deadline:18
+clock 433: (nil)
+clock 434: T3, server deadline:18
+clock 435: T2, server deadline:18
+clock 436: T1, server deadline:18
+clock 437: (nil)
+clock 438: (nil)
+clock 439: (nil)
+clock 440: T1, server deadline:18
+clock 441: T2, server deadline:18
+clock 442: T3, server deadline:18
+clock 443: T4, server deadline:18
+clock 444: T1, server deadline:18
+clock 445: T2, server deadline:18
+clock 446: (nil)
+clock 447: (nil)
+clock 448: T1, server deadline:18
+clock 449: T3, server deadline:18
+clock 450: T2, server deadline:18
+clock 451: (nil)
+clock 452: T1, server deadline:18
+clock 453: (nil)
+clock 454: (nil)
+clock 455: T2, server deadline:18
+clock 456: T1, server deadline:18
+clock 457: T3, server deadline:18
+clock 458: T4, server deadline:18
+clock 459: (nil)
+clock 460: T1, server deadline:18
+clock 461: T2, server deadline:18
+clock 462: T3, server deadline:18
+clock 463: (nil)
+clock 464: T1, server deadline:18
+clock 465: T2, server deadline:18
+clock 466: (nil)
+clock 467: (nil)
+clock 468: T1, server deadline:18
+clock 469: T3, server deadline:18
+clock 470: T2, server deadline:18
+clock 471: T4, server deadline:18
+clock 472: T1, server deadline:18
+clock 473: (nil)
+clock 474: (nil)
+clock 475: T2, server deadline:18
+clock 476: T1, server deadline:18
+clock 477: T3, server deadline:18
+clock 478: (nil)
+clock 479: (nil)
+clock 480: T1, server deadline:18
+clock 481: T2, server deadline:18
+clock 482: T4, server deadline:18
+clock 483: T3, server deadline:18
+clock 484: T1, server deadline:18
+clock 485: T2, server deadline:18
+clock 486: (nil)
+clock 487: (nil)
+clock 488: T1, server deadline:18
+clock 489: (nil)
+clock 490: T2, server deadline:18
+clock 491: T3, server deadline:18
+clock 492: T1, server deadline:18
+clock 493: (nil)
+clock 494: T4, server deadline:18
+clock 495: T2, server deadline:18
+clock 496: T1, server deadline:18
+clock 497: T3, server deadline:18
+clock 498: (nil)
+clock 499: (nil)
+clock 500: T1, server deadline:18
+clock 501: T2, server deadline:18
+clock 502: (nil)
+clock 503: (nil)
+clock 504: T1, server deadline:18
+clock 505: T2, server deadline:18
+clock 506: T3, server deadline:18
+clock 507: T4, server deadline:18
+clock 508: T1, server deadline:18
+clock 509: (nil)
+clock 510: T2, server deadline:18
+clock 511: T3, server deadline:18
+clock 512: T1, server deadline:18
+clock 513: (nil)
+clock 514: (nil)
+clock 515: T2, server deadline:18
+clock 516: T1, server deadline:18
+clock 517: (nil)
+clock 518: T3, server deadline:18
+clock 519: (nil)
+clock 520: T1, server deadline:18
+clock 521: T2, server deadline:18
+clock 522: T4, server deadline:18
+clock 523: (nil)
+clock 524: T1, server deadline:18
+clock 525: T2, server deadline:18
+clock 526: T3, server deadline:18
+clock 527: (nil)
+clock 528: T1, server deadline:18
+clock 529: (nil)
+clock 530: T2, server deadline:18
+clock 531: (nil)
+clock 532: T1, server deadline:18
+clock 533: T3, server deadline:18
+clock 534: T4, server deadline:18
+clock 535: T2, server deadline:18
+clock 536: T1, server deadline:18
+clock 537: (nil)
+clock 538: (nil)
+clock 539: T3, server deadline:18
+clock 540: T1, server deadline:18
+clock 541: T2, server deadline:18
+clock 542: (nil)
+clock 543: (nil)
+clock 544: T1, server deadline:18
+clock 545: T2, server deadline:18
+clock 546: T3, server deadline:18
+clock 547: T4, server deadline:18
+clock 548: T1, server deadline:18
+clock 549: (nil)
+clock 550: T2, server deadline:18
+clock 551: (nil)
+clock 552: T1, server deadline:18
+clock 553: T3, server deadline:18
+clock 554: (nil)
+clock 555: T2, server deadline:18
+clock 556: T1, server deadline:18
+clock 557: (nil)
+clock 558: (nil)
+clock 559: T4, server deadline:18
+clock 560: T1, server deadline:18
+clock 561: T2, server deadline:18
+clock 562: T3, server deadline:18
+clock 563: (nil)
+clock 564: T1, server deadline:18
+clock 565: T2, server deadline:18
+clock 566: (nil)
+clock 567: T3, server deadline:18
+clock 568: T1, server deadline:18
+clock 569: (nil)
+clock 570: T2, server deadline:18
+clock 571: (nil)
+clock 572: T1, server deadline:18
+clock 573: T4, server deadline:18
+clock 574: T3, server deadline:18
+clock 575: T2, server deadline:18
+clock 576: T1, server deadline:18
+clock 577: (nil)
+clock 578: (nil)
+clock 579: (nil)
+clock 580: T1, server deadline:18
+clock 581: T2, server deadline:18
+clock 582: T3, server deadline:18
+clock 583: (nil)
+clock 584: T1, server deadline:18
+clock 585: T2, server deadline:18
+clock 586: T4, server deadline:18
+clock 587: (nil)
+clock 588: T1, server deadline:18
+clock 589: T3, server deadline:18
+clock 590: T2, server deadline:18
+clock 591: (nil)
+clock 592: T1, server deadline:18
+clock 593: (nil)
+clock 594: (nil)
+clock 595: T2, server deadline:18
+clock 596: T1, server deadline:18
+clock 597: T3, server deadline:18
+clock 598: T4, server deadline:18
+clock 599: (nil)
+clock 600: T1, server deadline:18
+clock 601: T2, server deadline:18
+clock 602: T3, server deadline:18
+clock 603: (nil)
+clock 604: T1, server deadline:18
+clock 605: T2, server deadline:18
+clock 606: (nil)
+clock 607: (nil)
+clock 608: T1, server deadline:18
+clock 609: T3, server deadline:18
+clock 610: T2, server deadline:18
+clock 611: T4, server deadline:18
+clock 612: T1, server deadline:18
+clock 613: (nil)
+clock 614: (nil)
+clock 615: T2, server deadline:18
+clock 616: T1, server deadline:18
+clock 617: T3, server deadline:18
+clock 618: (nil)
+clock 619: (nil)
+clock 620: T1, server deadline:18
+clock 621: T2, server deadline:18
+clock 622: (nil)
+clock 623: T3, server deadline:18
+clock 624: T1, server deadline:18
+clock 625: T2, server deadline:18
+clock 626: T4, server deadline:18
+clock 627: (nil)
+clock 628: T1, server deadline:18
+clock 629: (nil)
+clock 630: T2, server deadline:18
+clock 631: T3, server deadline:18
+clock 632: T1, server deadline:18
+clock 633: (nil)
+clock 634: (nil)
+clock 635: T2, server deadline:18
+clock 636: T1, server deadline:18
+clock 637: T3, server deadline:18
+clock 638: T4, server deadline:18
+clock 639: (nil)
+clock 640: T1, server deadline:18
+clock 641: T2, server deadline:18
+clock 642: (nil)
+clock 643: (nil)
+clock 644: T1, server deadline:18
+clock 645: T2, server deadline:18
+clock 646: T3, server deadline:18
+clock 647: (nil)
+clock 648: T1, server deadline:18
+clock 649: (nil)
+clock 650: T2, server deadline:18
+clock 651: T3, server deadline:18
+clock 652: T1, server deadline:18
+clock 653: T4, server deadline:18
+clock 654: (nil)
+clock 655: T2, server deadline:18
+clock 656: T1, server deadline:18
+clock 657: (nil)
+clock 658: T3, server deadline:18
+clock 659: (nil)
+clock 660: T1, server deadline:18
+clock 661: T2, server deadline:18
+clock 662: (nil)
+clock 663: T4, server deadline:18
+clock 664: T1, server deadline:18
+clock 665: T2, server deadline:18
+clock 666: T3, server deadline:18
+clock 667: (nil)
+clock 668: T1, server deadline:18
+clock 669: (nil)
+clock 670: T2, server deadline:18
+clock 671: (nil)
+clock 672: T1, server deadline:18
+clock 673: T3, server deadline:18
+clock 674: (nil)
+clock 675: T2, server deadline:18
+clock 676: T1, server deadline:18
+clock 677: T4, server deadline:18
+clock 678: (nil)
+clock 679: T3, server deadline:18
+clock 680: T1, server deadline:18
+clock 681: T2, server deadline:18
+clock 682: (nil)
+clock 683: (nil)
+clock 684: T1, server deadline:18
+clock 685: T2, server deadline:18
+clock 686: T3, server deadline:18
+clock 687: (nil)
+clock 688: T1, server deadline:18
+clock 689: T4, server deadline:18
+clock 690: T2, server deadline:18
+clock 691: (nil)
+clock 692: T1, server deadline:18
+clock 693: T3, server deadline:18
+clock 694: (nil)
+clock 695: T2, server deadline:18
+clock 696: T1, server deadline:18
+clock 697: (nil)
+clock 698: (nil)
+clock 699: (nil)
+clock 700: T1, server deadline:18
+clock 701: T2, server deadline:18
+clock 702: T3, server deadline:18
+clock 703: T4, server deadline:18
+clock 704: T1, server deadline:18
+clock 705: T2, server deadline:18
+clock 706: (nil)
+clock 707: T3, server deadline:18
+clock 708: T1, server deadline:18
+clock 709: (nil)
+clock 710: T2, server deadline:18
+clock 711: (nil)
+clock 712: T1, server deadline:18
+clock 713: (nil)
+clock 714: T3, server deadline:18
+clock 715: T2, server deadline:18
+clock 716: T1, server deadline:18
+clock 717: T4, server deadline:18
+clock 718: (nil)
+clock 719: (nil)
+clock 720: T1, server deadline:18
+clock 721: T2, server deadline:18
+clock 722: T3, server deadline:18
+clock 723: (nil)
+clock 724: T1, server deadline:18
+clock 725: T2, server deadline:18
+clock 726: (nil)
+clock 727: (nil)
+clock 728: T1, server deadline:18
+clock 729: T3, server deadline:18
+clock 730: T2, server deadline:18
+clock 731: T4, server deadline:18
+clock 732: T1, server deadline:18
+clock 733: (nil)
+clock 734: (nil)
+clock 735: T2, server deadline:18
+clock 736: T1, server deadline:18
+clock 737: T3, server deadline:18
+clock 738: (nil)
+clock 739: (nil)
+clock 740: T1, server deadline:18
+clock 741: T2, server deadline:18
+clock 742: T3, server deadline:18
+clock 743: T4, server deadline:18
+clock 744: T1, server deadline:18
+clock 745: T2, server deadline:18
+clock 746: (nil)
+clock 747: (nil)
+clock 748: T1, server deadline:18
+clock 749: T3, server deadline:18
+clock 750: T2, server deadline:18
+clock 751: (nil)
+clock 752: T1, server deadline:18
+clock 753: (nil)
+clock 754: T4, server deadline:18
+clock 755: T2, server deadline:18
+clock 756: T1, server deadline:18
+clock 757: T3, server deadline:18
+clock 758: (nil)
+clock 759: (nil)
+clock 760: T1, server deadline:18
+clock 761: T2, server deadline:18
+clock 762: (nil)
+clock 763: T3, server deadline:18
+clock 764: T1, server deadline:18
+clock 765: T2, server deadline:18
+clock 766: (nil)
+clock 767: T4, server deadline:18
+clock 768: T1, server deadline:18
+clock 769: (nil)
+clock 770: T2, server deadline:18
+clock 771: T3, server deadline:18
+clock 772: T1, server deadline:18
+clock 773: (nil)
+clock 774: (nil)
+clock 775: T2, server deadline:18
+clock 776: T1, server deadline:18
+clock 777: T3, server deadline:18
+clock 778: (nil)
+clock 779: (nil)
+clock 780: T1, server deadline:18
+clock 781: T2, server deadline:18
+clock 782: T4, server deadline:18
+clock 783: (nil)
+clock 784: T1, server deadline:18
+clock 785: T2, server deadline:18
+clock 786: T3, server deadline:18
+clock 787: (nil)
+clock 788: T1, server deadline:18
+clock 789: (nil)
+clock 790: T2, server deadline:18
+clock 791: T3, server deadline:18
+clock 792: T1, server deadline:18
+clock 793: T4, server deadline:18
+clock 794: (nil)
+clock 795: T2, server deadline:18
+clock 796: T1, server deadline:18
+clock 797: (nil)
+clock 798: T3, server deadline:18
+clock 799: (nil)
+clock 800: T1, server deadline:18
+clock 801: T2, server deadline:18
+clock 802: (nil)
+clock 803: (nil)
+clock 804: T1, server deadline:18
+clock 805: T2, server deadline:18
+clock 806: T3, server deadline:18
+clock 807: T4, server deadline:18
+clock 808: T1, server deadline:18
+clock 809: (nil)
+clock 810: T2, server deadline:18
+clock 811: (nil)
+clock 812: T1, server deadline:18
+clock 813: T3, server deadline:18
+clock 814: (nil)
+clock 815: T2, server deadline:18
+clock 816: T1, server deadline:18
+clock 817: (nil)
+clock 818: (nil)
+clock 819: T3, server deadline:18
+clock 820: T1, server deadline:18
+clock 821: T2, server deadline:18
+clock 822: T4, server deadline:18
+clock 823: (nil)
+clock 824: T1, server deadline:18
+clock 825: T2, server deadline:18
+clock 826: T3, server deadline:18
+clock 827: (nil)
+clock 828: T1, server deadline:18
+clock 829: (nil)
+clock 830: T2, server deadline:18
+clock 831: (nil)
+clock 832: T1, server deadline:18
+clock 833: T3, server deadline:18
+clock 834: T4, server deadline:18
+clock 835: T2, server deadline:18
+clock 836: T1, server deadline:18
+clock 837: (nil)
+clock 838: (nil)
+clock 839: (nil)
+clock 840: T1, server deadline:18
+clock 841: T2, server deadline:18
+clock 842: T3, server deadline:18
+clock 843: (nil)
+clock 844: T1, server deadline:18
+clock 845: T2, server deadline:18
+clock 846: T4, server deadline:18
+clock 847: T3, server deadline:18
+clock 848: T1, server deadline:18
+clock 849: (nil)
+clock 850: T2, server deadline:18
+clock 851: (nil)
+clock 852: T1, server deadline:18
+clock 853: (nil)
+clock 854: T3, server deadline:18
+clock 855: T2, server deadline:18
+clock 856: T1, server deadline:18
+clock 857: (nil)
+clock 858: T4, server deadline:18
+clock 859: (nil)
+clock 860: T1, server deadline:18
+clock 861: T2, server deadline:18
+clock 862: T3, server deadline:18
+clock 863: (nil)
+clock 864: T1, server deadline:18
+clock 865: T2, server deadline:18
+clock 866: (nil)
+clock 867: (nil)
+clock 868: T1, server deadline:18
+clock 869: T3, server deadline:18
+clock 870: T2, server deadline:18
+clock 871: T4, server deadline:18
+clock 872: T1, server deadline:18
+clock 873: (nil)
+clock 874: (nil)
+clock 875: T2, server deadline:18
+clock 876: T1, server deadline:18
+clock 877: T3, server deadline:18
+clock 878: (nil)
+clock 879: (nil)
+clock 880: T1, server deadline:18
+clock 881: T2, server deadline:18
+clock 882: T3, server deadline:18
+clock 883: (nil)
+clock 884: T1, server deadline:18
+clock 885: T2, server deadline:18
+clock 886: T4, server deadline:18
+clock 887: (nil)
+clock 888: T1, server deadline:18
+clock 889: T3, server deadline:18
+clock 890: T2, server deadline:18
+clock 891: (nil)
+clock 892: T1, server deadline:18
+clock 893: (nil)
+clock 894: (nil)
+clock 895: T2, server deadline:18
+clock 896: T1, server deadline:18
+clock 897: T3, server deadline:18
+clock 898: T4, server deadline:18
+clock 899: (nil)
+clock 900: T1, server deadline:18
+clock 901: T2, server deadline:18
+clock 902: (nil)
+clock 903: T3, server deadline:18
+clock 904: T1, server deadline:18
+clock 905: T2, server deadline:18
+clock 906: (nil)
+clock 907: (nil)
+clock 908: T1, server deadline:18
+clock 909: (nil)
+clock 910: T2, server deadline:18
+clock 911: T3, server deadline:18
+clock 912: T1, server deadline:18
+clock 913: T4, server deadline:18
+clock 914: (nil)
+clock 915: T2, server deadline:18
+clock 916: T1, server deadline:18
+clock 917: T3, server deadline:18
+clock 918: (nil)
+clock 919: (nil)
+clock 920: T1, server deadline:18
+clock 921: T2, server deadline:18
+clock 922: (nil)
+clock 923: T4, server deadline:18
+clock 924: T1, server deadline:18
+clock 925: T2, server deadline:18
+clock 926: T3, server deadline:18
+clock 927: (nil)
+clock 928: T1, server deadline:18
+clock 929: (nil)
+clock 930: T2, server deadline:18
+clock 931: T3, server deadline:18
+clock 932: T1, server deadline:18
+clock 933: (nil)
+clock 934: (nil)
+clock 935: T2, server deadline:18
+clock 936: T1, server deadline:18
+clock 937: T4, server deadline:18
+clock 938: T3, server deadline:18
+clock 939: (nil)
+clock 940: T1, server deadline:18
+clock 941: T2, server deadline:18
+clock 942: (nil)
+clock 943: (nil)
+clock 944: T1, server deadline:18
+clock 945: T2, server deadline:18
+clock 946: T3, server deadline:18
+clock 947: (nil)
+clock 948: T1, server deadline:18
+clock 949: T4, server deadline:18
+clock 950: T2, server deadline:18
+clock 951: (nil)
+clock 952: T1, server deadline:18
+clock 953: T3, server deadline:18
+clock 954: (nil)
+clock 955: T2, server deadline:18
+clock 956: T1, server deadline:18
+clock 957: (nil)
+clock 958: (nil)
+clock 959: T3, server deadline:18
+clock 960: T1, server deadline:18
+clock 961: T2, server deadline:18
+clock 962: T4, server deadline:18
+clock 963: (nil)
+clock 964: T1, server deadline:18
+clock 965: T2, server deadline:18
+clock 966: T3, server deadline:18
+clock 967: (nil)
+clock 968: T1, server deadline:18
+clock 969: (nil)
+clock 970: T2, server deadline:18
+clock 971: (nil)
+clock 972: T1, server deadline:18
+clock 973: T3, server deadline:18
+clock 974: (nil)
+clock 975: T2, server deadline:18
+clock 976: T1, server deadline:18
+clock 977: T4, server deadline:18
+clock 978: (nil)
+clock 979: (nil)
+clock 980: T1, server deadline:18
+clock 981: T2, server deadline:18
+clock 982: T3, server deadline:18
+clock 983: (nil)
+clock 984: T1, server deadline:18
+clock 985: T2, server deadline:18
+clock 986: (nil)
+clock 987: T3, server deadline:18
+clock 988: T1, server deadline:18
+clock 989: T4, server deadline:18
+clock 990: T2, server deadline:18
+clock 991: (nil)
+clock 992: T1, server deadline:18
+clock 993: (nil)
+clock 994: T3, server deadline:18
+clock 995: T2, server deadline:18
+clock 996: T1, server deadline:18
+clock 997: (nil)
+clock 998: (nil)
+clock 999: (nil)
+clock 1000: T1, server deadline:18
+Remaining aperiodic jobs: NULL
+miss periodic jobs: 0, total periodic jobs: 672
+total response time: 9, number of completed aperiodic tasks: 3
+Miss rate of periodic jobs: 0.000000
+Average response time of aperiodic jobs: 3.000000
